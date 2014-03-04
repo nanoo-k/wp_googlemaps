@@ -56,7 +56,9 @@ function google_map_embed_after(){
  * wp_gmaps_ui.js contains a function that resizes the the google map
  * whenever the browser height changes. You may copy the javascript
  * to your existing .js files or include it as I do below. Up to you.
- *
+ * It also includes the google map javascript API. You may also just
+ * include the Map API in a script tag in your header file.
+ * 
  */
 function wp_gmaps_ui.js(){
 	wp_enqueue_script(
